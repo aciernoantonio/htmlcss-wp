@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin: 20px auto;
+}
+
+#site_header{
+    height: 8rem;
+    background-color: aqua;
+}
+
+.main_image{
+    height: 400px;
+    background-color: blanchedalmond;
+    margin: 15px 0;
+}
+
+.title{
+    height: 6rem;
+    background-color: blueviolet;
+    margin-bottom: 20px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+aside, .main_part{
+    float: left;
+    margin-bottom: 20px;
+}
+
+aside{
+    width: 20%;
+    height: 400px;
+    background-color: blueviolet;
+    
+}
+
+.main_part{
+    width: 58.3%;
+    height: 400px;
+    margin: 0 10px;
+    background-color: blueviolet;
+}
+
+#site_footer{
+    height: 4rem;
+    background-color: brown;
+}
