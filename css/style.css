@@ -15,12 +15,17 @@ aside, .main_part{
     margin-bottom: 20px;
 }
 
+:root{
+    --paragraph-color: #8C8C8C;
+    --subtitle-color: #555555;
+}
+
 /* debug */
 
-.debug #site_header{
+/* .debug #site_header{
     height: 8rem;
     background-color: aqua;
-}
+} */
 
 .debug .hero_image{
     height: 400px;
@@ -45,6 +50,26 @@ aside, .main_part{
 .debug #site_footer{
     height: 4rem;
     background-color: brown;
+}
+
+/* header */
+
+.logo{
+    width: 150px;
+    padding-right: 1rem;
+    border-right: 1px solid var(--paragraph-color);
+    margin-bottom: 1rem;
+}
+
+a{
+    margin-right: 1rem;
+    text-decoration: none;
+    color: var(--paragraph-color);
+}
+
+a:hover{
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 /* main */
