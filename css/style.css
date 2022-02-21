@@ -22,10 +22,10 @@ aside, .main_part{
 
 /* debug */
 
-.debug .title{
+/* .debug .title{
     height: 6rem;
     background-color: blueviolet;
-}
+} */
 
 .debug aside{
     height: 400px;
@@ -89,13 +89,26 @@ a:hover{
     color: white;
 }
 
-.hero_title{
+/* .hero_text > div{
+    font-size: 35px;
+} */
+
+.title_text{
     font-size: 35px;
 }
 
 .title{
-    margin-bottom: 20px;
+    margin: 40px 0;
 }
+
+.title > h2{
+    font-size: 30px;
+}
+
+.title > div{
+    color: var(--paragraph-color);
+}
+
 
 .clearfix::after{
     content: "";
