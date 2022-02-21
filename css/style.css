@@ -20,18 +20,6 @@ aside, .main_part{
     --subtitle-color: #555555;
 }
 
-/* debug */
-
-/* .debug .main_part{
-    height: 400px;
-    background-color: blueviolet;
-} */
-
-.debug #site_footer{
-    height: 4rem;
-    background-color: brown;
-}
-
 /* header */
 
 .logo{
@@ -150,3 +138,12 @@ aside{
     opacity: 0.8;
     border-radius: 6%;
 }  
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#heart{
+    color: red;
+}
